@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "files", "files", "{9F5E6384-8D91-7B30-BF94-463B36B69FC3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebForms2BlazorWASM", "files\WebForms2BlazorWASM.csproj", "{C08C2CF8-503A-E5B7-0EA2-7425CAEB9C62}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C08C2CF8-503A-E5B7-0EA2-7425CAEB9C62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C08C2CF8-503A-E5B7-0EA2-7425CAEB9C62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C08C2CF8-503A-E5B7-0EA2-7425CAEB9C62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C08C2CF8-503A-E5B7-0EA2-7425CAEB9C62}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C08C2CF8-503A-E5B7-0EA2-7425CAEB9C62} = {9F5E6384-8D91-7B30-BF94-463B36B69FC3}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EB3F5D71-9D65-4E53-87C1-EB8AD87C4DCB}
+	EndGlobalSection
+EndGlobal
