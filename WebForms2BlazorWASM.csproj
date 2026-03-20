@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net472</TargetFramework>
+    <AssemblyName>WebForms2BlazorWASM</AssemblyName>
+    <RootNamespace>WebForms2BlazorWASM</RootNamespace>
+    <Nullable>enable</Nullable>
+    <LangVersion>latest</LangVersion>
+    <UseWindowsForms>false</UseWindowsForms>
+    <UseWPF>true</UseWPF>
+    <Platforms>x64</Platforms>
+    <OutputType>Library</OutputType>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+  </PropertyGroup>
+
+  <!-- CodeFactory SDK references — restore with Ctrl+Shift+B on first load -->
+  <ItemGroup>
+    <PackageReference Include="CodeFactory.WinVs" Version="1.23050.2" />
+    <PackageReference Include="CodeFactory.WinVs.Sdk" Version="1.23050.2" />
+  </ItemGroup>
+
+  <!--
+    CFX RULE 19: CFXPackager runs automatically post-build.
+    Output: bin\Debug\WebForms2BlazorWASM.cfx
+    Deploy: copy the .cfx to the root of the target solution folder (same dir as .sln).
+  -->
+
+</Project>
