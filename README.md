@@ -6,6 +6,8 @@ Part of the CFX Runtime demo: a live Visual Studio 2022 migration of WingtipToys
 
 (See **MIGRATION-GUIDE.md** for step by step instructions with the option of using Claude Code for assistance)
 
+New to CodeFactory? Check out the [CF Wiki](https://github.com/bfencken/CFX-WebForms2WASMMigration/wiki) to understand how the overall platform works!
+
 ---
 
 ## What This Is
